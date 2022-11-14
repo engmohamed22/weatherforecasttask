@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WeatherForecasttask</string>
+    <string name="weather_image_description">%s weather image</string>
+    <string name="search">Search</string>
+    <string name="search_by_city_name">search by city name,country code</string>
+    <string name="current_weather">Wind: %1$s m/s \nPressure: %2$d hpa\nHumidity: %3$d %% \nSunrise: %4$s\nSunset: %5$s</string>
+    <string name="current_weather_status">Wind: %1$s m/s \nPressure: %2$d hpa\nHumidity: %3$d %% </string>
+    <string name="temp">%.2f °C</string>
+    <string name="last_updated_time">Last updated\n %s</string>
+    <string name="enable_gps">Enable Gps</string>
+    <string name="required_for_this_app">The Gps is required to get current location for your weather forecast</string>
+    <string name="enable_now">Enable now</string>
+    <string name="search_error">error fetching results</string>
+
+    <array name="weather_tab_days">
+        <item>Today</item>
+        <item>Tomorrow</item>
+        <item>Latter</item>
+    </array>
+</resources>

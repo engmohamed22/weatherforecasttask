@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/currentWeatherForecastFragment">
+
+    <fragment
+        android:id="@+id/currentWeatherForecastFragment"
+        android:name="com.example.weatherforecasttask.presentation.forecast.CurrentWeatherForecastFragment"
+        android:label="current_weather_forecast_fragment"
+        tools:layout="@layout/current_weather_forecast_fragment" />
+</navigation>
